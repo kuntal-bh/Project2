@@ -1,0 +1,13 @@
+<a href="#" class="list-group-item clearfix" (click) = "showdetails()"> 
+        <div class="pull-left">
+          <h4 class="list-group-item-heading">{{receipeitem.name}}</h4>
+          <p class="list-group-item-text"> {{receipeitem.description}}</p>
+        </div>
+        <span class="pull-right">
+          <img [src]="receipeitem.imagePath" 
+          alt="{{receipeitem.name}}" 
+          class="img-responsive" 
+          style="max-height :50px;"
+          >
+        </span>
+      </a>

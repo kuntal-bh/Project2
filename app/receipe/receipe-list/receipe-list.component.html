@@ -1,0 +1,12 @@
+<div class="row py-5">
+  <div class="col-md-12">
+    <button class="btn btn-success">Add a Receipe</button>
+  </div>
+  <div class="row py-2">
+    <div class="col-md-12">
+      <app-receipe-item  *ngFor = "let receipe of receipes" [receipeitem] ="receipe"
+     ></app-receipe-item>
+      
+    </div>
+  </div>
+</div>

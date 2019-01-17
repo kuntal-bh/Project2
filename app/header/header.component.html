@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="#" class="text-white">Navbar List</a>
+    </div>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarcollapse">
+    <ul class= "navbar-nav ml-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-white"(click)= "onselect('receipe')">Receipes</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-white"(click)= "onselect('shoppinglist')">Shopping List</a>
+      </li>
+      <li class="nav-item dropdown" >
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" appDropdownDirective>Shopping List</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">1</a>
+            <a href="#" class="dropdown-item">2</a>
+            <a href="#" class="dropdown-item">3</a>
+          </div>
+      </li>
+    </ul>
+     
+    </div> 
+  </div>
+</nav>
+
